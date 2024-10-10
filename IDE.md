@@ -74,7 +74,7 @@ include_dir = Core/Inc
 ```
 2. 对于外设的库文件，我们将其从Drivers目录移动至lib目录，以适应 PlatformIO 的目录规范。
 3. 编译烧录调试功能均正常。
-  ![image](image\code.png)
+  ![image](image/code.png)
 
 ## 4. 使用 Git 上传
 - 初始化 Git 仓库并添加远程：
