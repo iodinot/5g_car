@@ -18,7 +18,7 @@
 
 ## 3. 开发环境搭建
 
-由于团队成员工作设备不统一，为方便 Git 同步，故采用 VSCode + PlatformIO 开发环境。Windows 端无需自主链接交叉编译器，其安装步骤此处省略。
+由于团队成员工作设备不统一，为方便 Git 同步，故采用 VSCode + PlatformIO 开发环境。Windows 端的配置相对简单，各软件都有一键安装包且无需自主配置交叉编译器，其安装步骤此处省略。
 
 ### 3.1 系统准备
 确保 Ubuntu 系统已更新，并安装了基本工具：
@@ -38,9 +38,18 @@ sudo snap install --classic code
   
 ### 3.4 配置 ARM 交叉编译器
 PlatformIO 默认提供了 STM32 的支持，但确保 ARM 交叉编译器可用：
- 
+1. 下载[开源ARM工具链](https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/gnu-rm/downloads)
+2. 解压，cp至/usr/local/arm/
+3. vim /etc/profile添加如下内容
+```
+export PATH=$PATH:/usr/local/arm/bin
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/arm/lib
+```
+4. source刚刚修改的配置文件
+
+
 ### 3.4 安装 CubeMX
-1. 下载 CubeMX 安装包。
+1. 下载 CubeMX 安装包
 2. 给予执行权限并运行：
    ```bash
    chmod +x [CubeMX Installer]
@@ -48,9 +57,24 @@ PlatformIO 默认提供了 STM32 的支持，但确保 ARM 交叉编译器可用
    ```
 
 ### 3.5 项目移植
-1. 打开 CubeMX，创建新项目并选择 STM32F401。
-2. 配置外设，生成代码。
-3. 将生成的代码导入到 PlatformIO 项目中。
+PlatformIO与CubeMX虽然相互兼容，但其工程目录结构还是有所差异。
+1. 由于CubeMX每次更改配置都会重新生成代码，故此处更改PlatformIO的配置文件以适应CubeMX的目录结构，platformio.ini内容如下：
+```
+[env:genericSTM32F401RC]
+platform = ststm32
+board = genericSTM32F401RC
+framework = stm32cube
+upload_protocol = stlink
+debug_tool = stlink
+lib_extra_dirs = lib
+
+[platformio]
+src_dir = Core/Src
+include_dir = Core/Inc
+```
+2. 对于外设的库文件，我们将其从Drivers目录移动至lib目录，以适应 PlatformIO 的目录规范。
+3. 编译烧录调试功能均正常。
+  ![image](image\code.png)
 
 ## 4. 使用 Git 上传
 - 初始化 Git 仓库并添加远程：
@@ -65,7 +89,7 @@ git commit -m "Initial commit"
 git push -u origin master
 ```
 
-- 项目仓库：https://github.com/iodinot/5g_car.git
+- [项目仓库: https://github.com/iodinot/5g_car.git](https://github.com/iodinot/5g_car.git)
 
 ## 5. 结论
 本指南成功搭建了 STM32F401 的开发环境，后续可以开始项目开发。确保在开发过程中遵循良好的编程实践，并定期将代码推送到远程仓库。
