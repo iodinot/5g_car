@@ -1,0 +1,1401 @@
+Dependencies for Project 'Tricycle', Target 'Tricycle': (DO NOT MODIFY !)
+CompilerVersion: 6210000::V6.21::ARMCLANG
+F (startup_stm32f401xc.s)(0x66CF38AE)(--target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -masm=auto  -Wa,armasm,--diag_suppress=A1950W -c-gdwarf-4 -Wa,armasm,--pd,"__MICROLIB SETA 1" -Wa,armasm,--pd,"__EVAL SETA 1"-I./RTE/_Tricycle-IE:/TOOL/keil_5_39/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IE:/TOOL/keil_5_39/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-IE:/TOOL/keil_5_39/Packs/Keil/STM32F4xx_DFP/2.17.1/Device/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 539" -Wa,armasm,--pd,"_RTE_ SETA 1" -Wa,armasm,--pd,"STM32F401xC SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o tricycle/startup_stm32f401xc.o)
+F (../Core/Src/main.c)(0x66EF9B14)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/Bsp/encoder-I./RTE/_Tricycle-IE:/TOOL/keil_5_39/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IE:/TOOL/keil_5_39/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-IE:/TOOL/keil_5_39/Packs/Keil/STM32F4xx_DFP/2.17.1/Device/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F401xC -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F401xC-o tricycle/main.o -MD)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x66B8AD37)
+I (..\Core\Inc\stm32f4xx_hal_conf.h)(0x66CF38AD)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x66B8AD37)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x66B8AD35)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f401xc.h)(0x66B8AD35)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x66B8AD37)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\cmsis_version.h)(0x00000000)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\cmsis_compiler.h)(0x00000000)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\cmsis_armclang.h)(0x00000000)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\mpu_armv7.h)(0x00000000)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x66B8AD35)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66B8AD37)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_adc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_adc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_adc_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x66B8AD37)
+I (..\Core\Inc\tim.h)(0x66CE0580)
+I (..\Core\Inc\..\..\Drivers\Bsp\moto_control\moto_control.h)(0x66E1E3BD)
+I (..\Core\Inc\..\..\Drivers\Bsp\moto_control\..\encoder\encoder.h)(0x66D49512)
+I (..\Core\Inc\..\..\Core\Inc\main.h)(0x66D3010F)
+I (..\Core\Inc\..\..\Drivers\Bsp\key\key.h)(0x66B74D29)
+I (..\Core\Inc\..\..\Drivers\Bsp\power\power.h)(0x66D302C1)
+I (..\Core\Inc\..\..\Drivers\Bsp\oled\oled.h..\Core\Inc\usart.h)(0x00000000)
+I (..\Core\Inc\..\..\Drivers\Bsp\find_line\fine_line.h)(0x66BCAAF3)
+I (..\Core\Inc\..\..\Drivers\Bsp\usart_openmv_stm32\usart_openmv_stm32.h)(0x66B74E56)
+I (..\Core\Inc\..\..\Drivers\Bsp\led\led.h)(0x66CDF7C7)
+I (..\Drivers\Bsp\encoder\encoder.h)(0x66D49512)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\string.h)(0x6569B012)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x6569B012)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6569B012)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\math.h)(0x6569B012)
+I (..\Core\Inc\adc.h\.\Core\Inc\gpio.h)(0x00000000)
+F (../Core/Src/gpio.c)(0x66CDF415)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/Bsp/encoder-I./RTE/_Tricycle-IE:/TOOL/keil_5_39/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IE:/TOOL/keil_5_39/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-IE:/TOOL/keil_5_39/Packs/Keil/STM32F4xx_DFP/2.17.1/Device/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F401xC -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F401xC-o tricycle/gpio.o -MD)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x66B8AD37)
+I (..\Core\Inc\stm32f4xx_hal_conf.h)(0x66CF38AD)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x66B8AD37)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x66B8AD35)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f401xc.h)(0x66B8AD35)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x66B8AD37)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\cmsis_version.h)(0x00000000)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\cmsis_compiler.h)(0x00000000)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\cmsis_armclang.h)(0x00000000)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\mpu_armv7.h)(0x00000000)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x66B8AD35)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66B8AD37)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_adc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_adc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_adc_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x66B8AD37)
+I (..\Core\Inc\tim.h)(0x66CE0580)
+I (..\Core\Inc\..\..\Drivers\Bsp\moto_control\moto_control.h)(0x66E1E3BD)
+I (..\Core\Inc\..\..\Drivers\Bsp\moto_control\..\encoder\encoder.h)(0x66D49512)
+I (..\Core\Inc\..\..\Core\Inc\main.h)(0x66D3010F)
+I (..\Core\Inc\..\..\Drivers\Bsp\key\key.h)(0x66B74D29)
+I (..\Core\Inc\..\..\Drivers\Bsp\power\power.h)(0x66D302C1)
+I (..\Core\Inc\..\..\Drivers\Bsp\oled\oled.h..\Core\Inc\usart.h)(0x00000000)
+I (..\Core\Inc\..\..\Drivers\Bsp\find_line\fine_line.h)(0x66BCAAF3)
+I (..\Core\Inc\..\..\Drivers\Bsp\usart_openmv_stm32\usart_openmv_stm32.h)(0x66B74E56)
+I (..\Core\Inc\..\..\Drivers\Bsp\led\led.h)(0x66CDF7C7)
+I (..\Drivers\Bsp\encoder\encoder.h)(0x66D49512)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\string.h)(0x6569B012)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x6569B012)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6569B012)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\math.h)(0x6569B012)
+F (../Core/Src/adc.c)(0x66B74BCB)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/Bsp/encoder-I./RTE/_Tricycle-IE:/TOOL/keil_5_39/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IE:/TOOL/keil_5_39/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-IE:/TOOL/keil_5_39/Packs/Keil/STM32F4xx_DFP/2.17.1/Device/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F401xC -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F401xC-o tricycle/adc.o -MD)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x66B8AD37)
+I (..\Core\Inc\stm32f4xx_hal_conf.h)(0x66CF38AD)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x66B8AD37)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x66B8AD35)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f401xc.h)(0x66B8AD35)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x66B8AD37)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\cmsis_version.h)(0x00000000)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\cmsis_compiler.h)(0x00000000)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\cmsis_armclang.h)(0x00000000)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\mpu_armv7.h)(0x00000000)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x66B8AD35)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66B8AD37)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_adc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_adc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_adc_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x66B8AD37)
+I (..\Core\Inc\tim.h)(0x66CE0580)
+I (..\Core\Inc\..\..\Drivers\Bsp\moto_control\moto_control.h)(0x66E1E3BD)
+I (..\Core\Inc\..\..\Drivers\Bsp\moto_control\..\encoder\encoder.h)(0x66D49512)
+I (..\Core\Inc\..\..\Core\Inc\main.h)(0x66D3010F)
+I (..\Core\Inc\..\..\Drivers\Bsp\key\key.h)(0x66B74D29)
+I (..\Core\Inc\..\..\Drivers\Bsp\power\power.h)(0x66D302C1)
+I (..\Core\Inc\..\..\Drivers\Bsp\oled\oled.h..\Core\Inc\usart.h)(0x00000000)
+I (..\Core\Inc\..\..\Drivers\Bsp\find_line\fine_line.h)(0x66BCAAF3)
+I (..\Core\Inc\..\..\Drivers\Bsp\usart_openmv_stm32\usart_openmv_stm32.h)(0x66B74E56)
+I (..\Core\Inc\..\..\Drivers\Bsp\led\led.h)(0x66CDF7C7)
+I (..\Drivers\Bsp\encoder\encoder.h)(0x66D49512)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\string.h)(0x6569B012)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x6569B012)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6569B012)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\math.h)(0x6569B012)
+F (../Core/Src/tim.c)(0x66CE05B3)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/Bsp/encoder-I./RTE/_Tricycle-IE:/TOOL/keil_5_39/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IE:/TOOL/keil_5_39/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-IE:/TOOL/keil_5_39/Packs/Keil/STM32F4xx_DFP/2.17.1/Device/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F401xC -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F401xC-o tricycle/tim.o -MD)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x66B8AD37)
+I (..\Core\Inc\stm32f4xx_hal_conf.h)(0x66CF38AD)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x66B8AD37)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x66B8AD35)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f401xc.h)(0x66B8AD35)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x66B8AD37)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\cmsis_version.h)(0x00000000)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\cmsis_compiler.h)(0x00000000)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\cmsis_armclang.h)(0x00000000)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\mpu_armv7.h)(0x00000000)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x66B8AD35)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66B8AD37)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_adc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_adc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_adc_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x66B8AD37)
+I (..\Core\Inc\..\..\Drivers\Bsp\moto_control\moto_control.h)(0x66E1E3BD)
+I (..\Core\Inc\..\..\Drivers\Bsp\moto_control\..\encoder\encoder.h)(0x66D49512)
+I (..\Core\Inc\..\..\Core\Inc\main.h)(0x66D3010F)
+I (..\Core\Inc\..\..\Drivers\Bsp\key\key.h)(0x66B74D29)
+I (..\Core\Inc\..\..\Drivers\Bsp\power\power.h)(0x66D302C1)
+I (..\Core\Inc\..\..\Drivers\Bsp\oled\oled.h..\Core\Inc\usart.h)(0x00000000)
+I (..\Core\Inc\..\..\Drivers\Bsp\find_line\fine_line.h)(0x66BCAAF3)
+I (..\Core\Inc\..\..\Drivers\Bsp\usart_openmv_stm32\usart_openmv_stm32.h)(0x66B74E56)
+I (..\Core\Inc\..\..\Drivers\Bsp\led\led.h)(0x66CDF7C7)
+I (..\Drivers\Bsp\encoder\encoder.h)(0x66D49512)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\string.h)(0x6569B012)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x6569B012)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6569B012)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\math.h)(0x6569B012)
+F (../Core/Src/usart.c)(0x66EEE2A1)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/Bsp/encoder-I./RTE/_Tricycle-IE:/TOOL/keil_5_39/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IE:/TOOL/keil_5_39/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-IE:/TOOL/keil_5_39/Packs/Keil/STM32F4xx_DFP/2.17.1/Device/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F401xC -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F401xC-o tricycle/usart.o -MD)
+I (..\Core\Inc\main.hc.\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x00000000)
+I (..\Core\Inc\stm32f4xx_hal_conf.h)(0x66CF38AD)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x66B8AD37)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x66B8AD35)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f401xc.h)(0x66B8AD35)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x66B8AD37)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\cmsis_version.h)(0x00000000)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\cmsis_compiler.h)(0x00000000)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\cmsis_armclang.h)(0x00000000)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\mpu_armv7.h)(0x00000000)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x66B8AD35)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66B8AD37)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_adc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_adc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_adc_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x66B8AD37)
+I (..\Core\Inc\tim.h)(0x66CE0580)
+I (..\Core\Inc\..\..\Drivers\Bsp\moto_control\moto_control.h)(0x66E1E3BD)
+I (..\Core\Inc\..\..\Drivers\Bsp\moto_control\..\encoder\encoder.h)(0x66D49512)
+I (..\Core\Inc\..\..\Core\Inc\main.h)(0x66D3010F)
+I (..\Core\Inc\..\..\Drivers\Bsp\key\key.h)(0x66B74D29)
+I (..\Core\Inc\..\..\Drivers\Bsp\power\power.h)(0x66D302C1)
+I (..\Core\Inc\..\..\Drivers\Bsp\oled\oled.h)(0x66DEF8DE)
+I (..\Core\Inc\..\..\Drivers\Bsp\find_line\fine_line.h)(0x66BCAAF3)
+I (..\Core\Inc\..\..\Drivers\Bsp\usart_openmv_stm32\usart_openmv_stm32.h)(0x66B74E56)
+I (..\Core\Inc\..\..\Drivers\Bsp\led\led.h)(0x66CDF7C7)
+I (..\Drivers\Bsp\encoder\encoder.h)(0x66D49512)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\string.h)(0x6569B012)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x6569B012)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6569B012)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\math.h)(0x6569B012)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x6569B012)
+F (../Core/Src/stm32f4xx_it.c)(0x66CE0580)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/Bsp/encoder-I./RTE/_Tricycle-IE:/TOOL/keil_5_39/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IE:/TOOL/keil_5_39/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-IE:/TOOL/keil_5_39/Packs/Keil/STM32F4xx_DFP/2.17.1/Device/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F401xC -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F401xC-o tricycle/stm32f4xx_it.o -MD)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x66B8AD37)
+I (..\Core\Inc\stm32f4xx_hal_conf.h)(0x66CF38AD)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x66B8AD37)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x66B8AD35)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f401xc.h)(0x66B8AD35)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x66B8AD37)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\cmsis_version.h)(0x00000000)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\cmsis_compiler.h)(0x00000000)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\cmsis_armclang.h)(0x00000000)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\mpu_armv7.h)(0x00000000)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x66B8AD35)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66B8AD37)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_adc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_adc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_adc_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x66B8AD37)
+I (..\Core\Inc\tim.h)(0x66CE0580)
+I (..\Core\Inc\..\..\Drivers\Bsp\moto_control\moto_control.h)(0x66E1E3BD)
+I (..\Core\Inc\..\..\Drivers\Bsp\moto_control\..\encoder\encoder.h)(0x66D49512)
+I (..\Core\Inc\..\..\Core\Inc\main.h)(0x66D3010F)
+I (..\Core\Inc\..\..\Drivers\Bsp\key\key.h)(0x66B74D29)
+I (..\Core\Inc\..\..\Drivers\Bsp\power\power.h)(0x66D302C1)
+I (..\Core\Inc\..\..\Drivers\Bsp\oled\oled.h..\Core\Inc\usart.h)(0x00000000)
+I (..\Core\Inc\..\..\Drivers\Bsp\find_line\fine_line.h)(0x66BCAAF3)
+I (..\Core\Inc\..\..\Drivers\Bsp\usart_openmv_stm32\usart_openmv_stm32.h)(0x66B74E56)
+I (..\Core\Inc\..\..\Drivers\Bsp\led\led.h)(0x66CDF7C7)
+I (..\Drivers\Bsp\encoder\encoder.h)(0x66D49512)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\string.h)(0x6569B012)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x6569B012)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6569B012)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\math.h)(0x6569B012)
+I (..\Core\Inc\stm32f4xx_it.h)(0x66CE0580)
+F (../Core/Src/stm32f4xx_hal_msp.c)(0x66B8AD49)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/Bsp/encoder-I./RTE/_Tricycle-IE:/TOOL/keil_5_39/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IE:/TOOL/keil_5_39/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-IE:/TOOL/keil_5_39/Packs/Keil/STM32F4xx_DFP/2.17.1/Device/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F401xC -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F401xC-o tricycle/stm32f4xx_hal_msp.o -MD)
+I (..\Core\Inc\main.h4.\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x00000000)
+I (..\Core\Inc\stm32f4xx_hal_conf.h)(0x66CF38AD)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x66B8AD37)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x66B8AD35)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f401xc.h)(0x66B8AD35)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x66B8AD37)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\cmsis_version.h)(0x00000000)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\cmsis_compiler.h)(0x00000000)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\cmsis_armclang.h)(0x00000000)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\mpu_armv7.h)(0x00000000)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x66B8AD35)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66B8AD37)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_adc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_adc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_adc_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x66B8AD37)
+I (..\Core\Inc\tim.h)(0x66CE0580)
+I (..\Core\Inc\..\..\Drivers\Bsp\moto_control\moto_control.h)(0x66E1E3BD)
+I (..\Core\Inc\..\..\Drivers\Bsp\moto_control\..\encoder\encoder.h)(0x66D49512)
+I (..\Core\Inc\..\..\Core\Inc\main.h)(0x66D3010F)
+I (..\Core\Inc\..\..\Drivers\Bsp\key\key.h)(0x66B74D29)
+I (..\Core\Inc\..\..\Drivers\Bsp\power\power.h)(0x66D302C1)
+I (..\Core\Inc\..\..\Drivers\Bsp\oled\oled.h..\Core\Inc\usart.h)(0x00000000)
+I (..\Core\Inc\..\..\Drivers\Bsp\find_line\fine_line.h)(0x66BCAAF3)
+I (..\Core\Inc\..\..\Drivers\Bsp\usart_openmv_stm32\usart_openmv_stm32.h)(0x66B74E56)
+I (..\Core\Inc\..\..\Drivers\Bsp\led\led.h)(0x66CDF7C7)
+I (..\Drivers\Bsp\encoder\encoder.h)(0x66D49512)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\string.h)(0x6569B012)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x6569B012)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6569B012)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\math.h)(0x6569B012)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c)(0x66B8AD37)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/Bsp/encoder-I./RTE/_Tricycle-IE:/TOOL/keil_5_39/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IE:/TOOL/keil_5_39/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-IE:/TOOL/keil_5_39/Packs/Keil/STM32F4xx_DFP/2.17.1/Device/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F401xC -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F401xC-o tricycle/stm32f4xx_hal_adc.o -MD)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x66B8AD37)
+I (..\Core\Inc\stm32f4xx_hal_conf.h)(0x66CF38AD)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x66B8AD37)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x66B8AD35)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f401xc.h)(0x66B8AD35)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x66B8AD37)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\cmsis_version.h)(0x00000000)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\cmsis_compiler.h)(0x00000000)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\cmsis_armclang.h)(0x00000000)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\mpu_armv7.h)(0x00000000)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x66B8AD35)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66B8AD37)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_adc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_adc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_adc_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x66B8AD37)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c)(0x66B8AD37)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/Bsp/encoder-I./RTE/_Tricycle-IE:/TOOL/keil_5_39/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IE:/TOOL/keil_5_39/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-IE:/TOOL/keil_5_39/Packs/Keil/STM32F4xx_DFP/2.17.1/Device/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F401xC -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F401xC-o tricycle/stm32f4xx_hal_adc_ex.o -MD)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x66B8AD37)
+I (..\Core\Inc\stm32f4xx_hal_conf.h)(0x66CF38AD)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x66B8AD37)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x66B8AD35)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f401xc.h)(0x66B8AD35)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x66B8AD37)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\cmsis_version.h)(0x00000000)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\cmsis_compiler.h)(0x00000000)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\cmsis_armclang.h)(0x00000000)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\mpu_armv7.h)(0x00000000)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x66B8AD35)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66B8AD37)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_adc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_adc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_adc_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x66B8AD37)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c)(0x66B8AD37)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/Bsp/encoder-I./RTE/_Tricycle-IE:/TOOL/keil_5_39/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IE:/TOOL/keil_5_39/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-IE:/TOOL/keil_5_39/Packs/Keil/STM32F4xx_DFP/2.17.1/Device/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F401xC -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F401xC-o tricycle/stm32f4xx_ll_adc.o -MD)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c)(0x66B8AD37)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/Bsp/encoder-I./RTE/_Tricycle-IE:/TOOL/keil_5_39/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IE:/TOOL/keil_5_39/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-IE:/TOOL/keil_5_39/Packs/Keil/STM32F4xx_DFP/2.17.1/Device/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F401xC -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F401xC-o tricycle/stm32f4xx_hal_rcc.o -MD)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x66B8AD37)
+I (..\Core\Inc\stm32f4xx_hal_conf.h)(0x66CF38AD)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x66B8AD37)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x66B8AD35)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f401xc.h)(0x66B8AD35)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x66B8AD37)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\cmsis_version.h)(0x00000000)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\cmsis_compiler.h)(0x00000000)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\cmsis_armclang.h)(0x00000000)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\mpu_armv7.h)(0x00000000)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x66B8AD35)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66B8AD37)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_adc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_adc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_adc_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x66B8AD37)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c)(0x66B8AD37)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/Bsp/encoder-I./RTE/_Tricycle-IE:/TOOL/keil_5_39/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IE:/TOOL/keil_5_39/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-IE:/TOOL/keil_5_39/Packs/Keil/STM32F4xx_DFP/2.17.1/Device/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F401xC -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F401xC-o tricycle/stm32f4xx_hal_rcc_ex.o -MD)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x66B8AD37)
+I (..\Core\Inc\stm32f4xx_hal_conf.h)(0x66CF38AD)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x66B8AD37)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x66B8AD35)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f401xc.h)(0x66B8AD35)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x66B8AD37)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\cmsis_version.h)(0x00000000)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\cmsis_compiler.h)(0x00000000)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\cmsis_armclang.h)(0x00000000)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\mpu_armv7.h)(0x00000000)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x66B8AD35)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66B8AD37)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_adc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_adc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_adc_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x66B8AD37)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c)(0x66B8AD37)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/Bsp/encoder-I./RTE/_Tricycle-IE:/TOOL/keil_5_39/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IE:/TOOL/keil_5_39/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-IE:/TOOL/keil_5_39/Packs/Keil/STM32F4xx_DFP/2.17.1/Device/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F401xC -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F401xC-o tricycle/stm32f4xx_hal_flash.o -MD)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x66B8AD37)
+I (..\Core\Inc\stm32f4xx_hal_conf.h)(0x66CF38AD)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x66B8AD37)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x66B8AD35)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f401xc.h)(0x66B8AD35)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x66B8AD37)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\cmsis_version.h)(0x00000000)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\cmsis_compiler.h)(0x00000000)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\cmsis_armclang.h)(0x00000000)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\mpu_armv7.h)(0x00000000)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x66B8AD35)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66B8AD37)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_adc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_adc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_adc_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x66B8AD37)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c)(0x66B8AD37)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/Bsp/encoder-I./RTE/_Tricycle-IE:/TOOL/keil_5_39/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IE:/TOOL/keil_5_39/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-IE:/TOOL/keil_5_39/Packs/Keil/STM32F4xx_DFP/2.17.1/Device/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F401xC -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F401xC-o tricycle/stm32f4xx_hal_flash_ex.o -MD)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x66B8AD37)
+I (..\Core\Inc\stm32f4xx_hal_conf.h)(0x66CF38AD)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x66B8AD37)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x66B8AD35)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f401xc.h)(0x66B8AD35)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x66B8AD37)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\cmsis_version.h)(0x00000000)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\cmsis_compiler.h)(0x00000000)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\cmsis_armclang.h)(0x00000000)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\mpu_armv7.h)(0x00000000)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x66B8AD35)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66B8AD37)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_adc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_adc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_adc_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x66B8AD37)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c)(0x66B8AD37)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/Bsp/encoder-I./RTE/_Tricycle-IE:/TOOL/keil_5_39/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IE:/TOOL/keil_5_39/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-IE:/TOOL/keil_5_39/Packs/Keil/STM32F4xx_DFP/2.17.1/Device/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F401xC -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F401xC-o tricycle/stm32f4xx_hal_flash_ramfunc.o -MD)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x66B8AD37)
+I (..\Core\Inc\stm32f4xx_hal_conf.h)(0x66CF38AD)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x66B8AD37)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x66B8AD35)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f401xc.h)(0x66B8AD35)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x66B8AD37)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\cmsis_version.h)(0x00000000)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\cmsis_compiler.h)(0x00000000)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\cmsis_armclang.h)(0x00000000)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\mpu_armv7.h)(0x00000000)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x66B8AD35)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66B8AD37)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_adc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_adc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_adc_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x66B8AD37)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c)(0x66B8AD37)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/Bsp/encoder-I./RTE/_Tricycle-IE:/TOOL/keil_5_39/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IE:/TOOL/keil_5_39/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-IE:/TOOL/keil_5_39/Packs/Keil/STM32F4xx_DFP/2.17.1/Device/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F401xC -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F401xC-o tricycle/stm32f4xx_hal_gpio.o -MD)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x66B8AD37)
+I (..\Core\Inc\stm32f4xx_hal_conf.h)(0x66CF38AD)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x66B8AD37)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x66B8AD35)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f401xc.h)(0x66B8AD35)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x66B8AD37)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\cmsis_version.h)(0x00000000)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\cmsis_compiler.h)(0x00000000)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\cmsis_armclang.h)(0x00000000)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\mpu_armv7.h)(0x00000000)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x66B8AD35)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66B8AD37)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_adc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_adc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_adc_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x66B8AD37)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c)(0x66B8AD37)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/Bsp/encoder-I./RTE/_Tricycle-IE:/TOOL/keil_5_39/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IE:/TOOL/keil_5_39/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-IE:/TOOL/keil_5_39/Packs/Keil/STM32F4xx_DFP/2.17.1/Device/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F401xC -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F401xC-o tricycle/stm32f4xx_hal_dma_ex.o -MD)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x66B8AD37)
+I (..\Core\Inc\stm32f4xx_hal_conf.h)(0x66CF38AD)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x66B8AD37)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x66B8AD35)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f401xc.h)(0x66B8AD35)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x66B8AD37)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\cmsis_version.h)(0x00000000)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\cmsis_compiler.h)(0x00000000)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\cmsis_armclang.h)(0x00000000)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\mpu_armv7.h)(0x00000000)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x66B8AD35)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66B8AD37)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_adc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_adc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_adc_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x66B8AD37)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c)(0x66B8AD37)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/Bsp/encoder-I./RTE/_Tricycle-IE:/TOOL/keil_5_39/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IE:/TOOL/keil_5_39/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-IE:/TOOL/keil_5_39/Packs/Keil/STM32F4xx_DFP/2.17.1/Device/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F401xC -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F401xC-o tricycle/stm32f4xx_hal_dma.o -MD)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x66B8AD37)
+I (..\Core\Inc\stm32f4xx_hal_conf.h)(0x66CF38AD)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x66B8AD37)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x66B8AD35)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f401xc.h)(0x66B8AD35)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x66B8AD37)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\cmsis_version.h)(0x00000000)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\cmsis_compiler.h)(0x00000000)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\cmsis_armclang.h)(0x00000000)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\mpu_armv7.h)(0x00000000)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x66B8AD35)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66B8AD37)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_adc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_adc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_adc_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x66B8AD37)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c)(0x66B8AD37)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/Bsp/encoder-I./RTE/_Tricycle-IE:/TOOL/keil_5_39/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IE:/TOOL/keil_5_39/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-IE:/TOOL/keil_5_39/Packs/Keil/STM32F4xx_DFP/2.17.1/Device/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F401xC -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F401xC-o tricycle/stm32f4xx_hal_pwr.o -MD)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x66B8AD37)
+I (..\Core\Inc\stm32f4xx_hal_conf.h)(0x66CF38AD)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x66B8AD37)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x66B8AD35)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f401xc.h)(0x66B8AD35)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x66B8AD37)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\cmsis_version.h)(0x00000000)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\cmsis_compiler.h)(0x00000000)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\cmsis_armclang.h)(0x00000000)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\mpu_armv7.h)(0x00000000)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x66B8AD35)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66B8AD37)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_adc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_adc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_adc_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x66B8AD37)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c)(0x66B8AD37)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/Bsp/encoder-I./RTE/_Tricycle-IE:/TOOL/keil_5_39/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IE:/TOOL/keil_5_39/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-IE:/TOOL/keil_5_39/Packs/Keil/STM32F4xx_DFP/2.17.1/Device/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F401xC -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F401xC-o tricycle/stm32f4xx_hal_pwr_ex.o -MD)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x66B8AD37)
+I (..\Core\Inc\stm32f4xx_hal_conf.h)(0x66CF38AD)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x66B8AD37)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x66B8AD35)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f401xc.h)(0x66B8AD35)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x66B8AD37)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\cmsis_version.h)(0x00000000)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\cmsis_compiler.h)(0x00000000)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\cmsis_armclang.h)(0x00000000)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\mpu_armv7.h)(0x00000000)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x66B8AD35)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66B8AD37)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_adc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_adc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_adc_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x66B8AD37)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c)(0x66B8AD37)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/Bsp/encoder-I./RTE/_Tricycle-IE:/TOOL/keil_5_39/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IE:/TOOL/keil_5_39/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-IE:/TOOL/keil_5_39/Packs/Keil/STM32F4xx_DFP/2.17.1/Device/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F401xC -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F401xC-o tricycle/stm32f4xx_hal_cortex.o -MD)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x66B8AD37)
+I (..\Core\Inc\stm32f4xx_hal_conf.h)(0x66CF38AD)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x66B8AD37)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x66B8AD35)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f401xc.h)(0x66B8AD35)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x66B8AD37)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\cmsis_version.h)(0x00000000)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\cmsis_compiler.h)(0x00000000)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\cmsis_armclang.h)(0x00000000)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\mpu_armv7.h)(0x00000000)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x66B8AD35)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66B8AD37)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_adc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_adc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_adc_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x66B8AD37)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c)(0x66B8AD37)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/Bsp/encoder-I./RTE/_Tricycle-IE:/TOOL/keil_5_39/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IE:/TOOL/keil_5_39/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-IE:/TOOL/keil_5_39/Packs/Keil/STM32F4xx_DFP/2.17.1/Device/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F401xC -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F401xC-o tricycle/stm32f4xx_hal.o -MD)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x66B8AD37)
+I (..\Core\Inc\stm32f4xx_hal_conf.h)(0x66CF38AD)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x66B8AD37)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x66B8AD35)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f401xc.h)(0x66B8AD35)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x66B8AD37)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\cmsis_version.h)(0x00000000)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\cmsis_compiler.h)(0x00000000)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\cmsis_armclang.h)(0x00000000)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\mpu_armv7.h)(0x00000000)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x66B8AD35)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66B8AD37)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_adc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_adc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_adc_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x66B8AD37)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c)(0x66B8AD37)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/Bsp/encoder-I./RTE/_Tricycle-IE:/TOOL/keil_5_39/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IE:/TOOL/keil_5_39/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-IE:/TOOL/keil_5_39/Packs/Keil/STM32F4xx_DFP/2.17.1/Device/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F401xC -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F401xC-o tricycle/stm32f4xx_hal_exti.o -MD)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x66B8AD37)
+I (..\Core\Inc\stm32f4xx_hal_conf.h)(0x66CF38AD)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x66B8AD37)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x66B8AD35)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f401xc.h)(0x66B8AD35)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x66B8AD37)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\cmsis_version.h)(0x00000000)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\cmsis_compiler.h)(0x00000000)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\cmsis_armclang.h)(0x00000000)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\mpu_armv7.h)(0x00000000)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x66B8AD35)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66B8AD37)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_adc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_adc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_adc_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x66B8AD37)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c)(0x66B8AD37)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/Bsp/encoder-I./RTE/_Tricycle-IE:/TOOL/keil_5_39/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IE:/TOOL/keil_5_39/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-IE:/TOOL/keil_5_39/Packs/Keil/STM32F4xx_DFP/2.17.1/Device/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F401xC -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F401xC-o tricycle/stm32f4xx_hal_tim.o -MD)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x66B8AD37)
+I (..\Core\Inc\stm32f4xx_hal_conf.h)(0x66CF38AD)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x66B8AD37)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x66B8AD35)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f401xc.h)(0x66B8AD35)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x66B8AD37)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\cmsis_version.h)(0x00000000)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\cmsis_compiler.h)(0x00000000)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\cmsis_armclang.h)(0x00000000)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\mpu_armv7.h)(0x00000000)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x66B8AD35)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66B8AD37)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_adc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_adc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_adc_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x66B8AD37)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c)(0x66B8AD37)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/Bsp/encoder-I./RTE/_Tricycle-IE:/TOOL/keil_5_39/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IE:/TOOL/keil_5_39/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-IE:/TOOL/keil_5_39/Packs/Keil/STM32F4xx_DFP/2.17.1/Device/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F401xC -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F401xC-o tricycle/stm32f4xx_hal_tim_ex.o -MD)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x66B8AD37)
+I (..\Core\Inc\stm32f4xx_hal_conf.h)(0x66CF38AD)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x66B8AD37)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x66B8AD35)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f401xc.h)(0x66B8AD35)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x66B8AD37)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\cmsis_version.h)(0x00000000)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\cmsis_compiler.h)(0x00000000)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\cmsis_armclang.h)(0x00000000)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\mpu_armv7.h)(0x00000000)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x66B8AD35)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66B8AD37)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_adc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_adc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_adc_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x66B8AD37)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c)(0x66DDB925)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/Bsp/encoder-I./RTE/_Tricycle-IE:/TOOL/keil_5_39/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IE:/TOOL/keil_5_39/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-IE:/TOOL/keil_5_39/Packs/Keil/STM32F4xx_DFP/2.17.1/Device/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F401xC -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F401xC-o tricycle/stm32f4xx_hal_uart.o -MD)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x66B8AD37)
+I (..\Core\Inc\stm32f4xx_hal_conf.h)(0x66CF38AD)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x66B8AD37)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x66B8AD35)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f401xc.h)(0x66B8AD35)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x66B8AD37)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\cmsis_version.h)(0x00000000)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\cmsis_compiler.h)(0x00000000)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\cmsis_armclang.h)(0x00000000)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\mpu_armv7.h)(0x00000000)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x66B8AD35)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66B8AD37)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_adc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_adc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_adc_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x66B8AD37)
+F (../Core/Src/system_stm32f4xx.c)(0x66A53C2A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/Bsp/encoder-I./RTE/_Tricycle-IE:/TOOL/keil_5_39/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IE:/TOOL/keil_5_39/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-IE:/TOOL/keil_5_39/Packs/Keil/STM32F4xx_DFP/2.17.1/Device/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F401xC -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F401xC-o tricycle/system_stm32f4xx.o -MD)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x66B8AD35)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f401xc.h)(0x66B8AD35)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x66B8AD37)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\cmsis_version.h)(0x00000000)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\cmsis_compiler.h)(0x00000000)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\cmsis_armclang.h)(0x00000000)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\mpu_armv7.h)(0x00000000)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x66B8AD35)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x66B8AD37)
+I (..\Core\Inc\stm32f4xx_hal_conf.h)(0x66CF38AD)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66B8AD37)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_adc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_adc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_adc_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x66B8AD37)
+F (..\Drivers\Bsp\encoder\encoder.c)(0x66DF020B)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/Bsp/encoder-I./RTE/_Tricycle-IE:/TOOL/keil_5_39/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IE:/TOOL/keil_5_39/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-IE:/TOOL/keil_5_39/Packs/Keil/STM32F4xx_DFP/2.17.1/Device/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F401xC -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F401xC-o tricycle/encoder.o -MD)
+I (..\Drivers\Bsp\encoder\encoder.h)(0x66D49512)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x66B8AD37)
+I (..\Core\Inc\stm32f4xx_hal_conf.h)(0x66CF38AD)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x66B8AD37)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x66B8AD35)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f401xc.h)(0x66B8AD35)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x66B8AD37)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\cmsis_version.h)(0x00000000)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\cmsis_compiler.h)(0x00000000)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\cmsis_armclang.h)(0x00000000)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\mpu_armv7.h)(0x00000000)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x66B8AD35)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66B8AD37)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_adc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_adc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_adc_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x66B8AD37)
+I (..\Core\Inc\..\..\Core\Inc\tim.h)(0x66CE0580)
+I (..\Core\Inc\..\..\Core\Inc\..\..\Drivers\Bsp\moto_control\moto_control.h)(0x66E1E3BD)
+I (..\Core\Inc\..\..\Core\Inc\..\..\Drivers\Bsp\moto_control\..\encoder\encoder.h)(0x66D49512)
+I (..\Core\Inc\..\..\Core\Inc\..\..\Drivers\Bsp\key\key.h)(0x66B74D29)
+I (..\Core\Inc\..\..\Core\Inc\..\..\Drivers\Bsp\power\power.h)(0x66D302C1)
+I (..\Core\Inc\main.h)(0x66D3010F)
+I (..\Core\Inc\..\..\Core\Inc\..\..\Drivers\Bsp\oled\oled.h)(0x66DEF8DE)
+I (..\Core\Inc\usart.h)(0x66CDEF02)
+I (..\Core\Inc\..\..\Core\Inc\..\..\Drivers\Bsp\find_line\fine_line.h)(0x66BCAAF3)
+I (..\Core\Inc\..\..\Core\Inc\..\..\Drivers\Bsp\usart_openmv_stm32\usart_openmv_stm32.h)(0x66B74E56)
+I (..\Core\Inc\..\..\Core\Inc\..\..\Drivers\Bsp\led\led.h)(0x66CDF7C7)
+I (..\Core\Inc\..\..\Core\Inc\usart.h)(0x66CDEF02)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\string.h)(0x6569B012)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x6569B012)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6569B012)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\math.h)(0x6569B012)
+F (..\Drivers\Bsp\moto_control\moto_control.c)(0x66EECE42)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/Bsp/encoder-I./RTE/_Tricycle-IE:/TOOL/keil_5_39/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IE:/TOOL/keil_5_39/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-IE:/TOOL/keil_5_39/Packs/Keil/STM32F4xx_DFP/2.17.1/Device/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F401xC -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F401xC-o tricycle/moto_control.o -MD)
+I (..\Drivers\Bsp\moto_control\moto_control.h)(0x66E1E3BD)
+I (..\Drivers\Bsp\moto_control\..\encoder\encoder.h)(0x66D49512)
+I (..\Core\Inc\..\..\Core\Inc\main.h)(0x66D3010F)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x66B8AD37)
+I (..\Core\Inc\stm32f4xx_hal_conf.h)(0x66CF38AD)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x66B8AD37)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x66B8AD35)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f401xc.h)(0x66B8AD35)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x66B8AD37)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\cmsis_version.h)(0x00000000)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\cmsis_compiler.h)(0x00000000)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\cmsis_armclang.h)(0x00000000)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\mpu_armv7.h)(0x00000000)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x66B8AD35)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66B8AD37)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_adc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_adc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_adc_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x66B8AD37)
+I (..\Core\Inc\..\..\Core\Inc\tim.h)(0x66CE0580)
+I (..\Core\Inc\..\..\Core\Inc\..\..\Drivers\Bsp\moto_control\moto_control.h)(0x66E1E3BD)
+I (..\Core\Inc\..\..\Core\Inc\..\..\Drivers\Bsp\key\key.h)(0x66B74D29)
+I (..\Core\Inc\..\..\Core\Inc\..\..\Drivers\Bsp\power\power.h)(0x66D302C1)
+I (..\Core\Inc\main.h)(0x66D3010F)
+I (..\Core\Inc\..\..\Core\Inc\..\..\Drivers\Bsp\oled\oled.h)(0x66DEF8DE)
+I (..\Core\Inc\usart.h)(0x66CDEF02)
+I (..\Core\Inc\..\..\Core\Inc\..\..\Drivers\Bsp\find_line\fine_line.h)(0x66BCAAF3)
+I (..\Core\Inc\..\..\Core\Inc\..\..\Drivers\Bsp\usart_openmv_stm32\usart_openmv_stm32.h)(0x66B74E56)
+I (..\Core\Inc\..\..\Core\Inc\..\..\Drivers\Bsp\led\led.h)(0x66CDF7C7)
+I (..\Core\Inc\..\..\Core\Inc\usart.hr.\Drivers\Bsp\encoder\encoder.h)(0x00000000)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\string.h)(0x6569B012)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x6569B012)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6569B012)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\math.h)(0x6569B012)
+F (..\Drivers\Bsp\key\key.c)(0x66D5B8FE)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/Bsp/encoder-I./RTE/_Tricycle-IE:/TOOL/keil_5_39/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IE:/TOOL/keil_5_39/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-IE:/TOOL/keil_5_39/Packs/Keil/STM32F4xx_DFP/2.17.1/Device/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F401xC -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F401xC-o tricycle/key.o -MD)
+I (..\Core\Inc\..\..\Core\Inc\main.h)(0x66D3010F)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x66B8AD37)
+I (..\Core\Inc\stm32f4xx_hal_conf.h)(0x66CF38AD)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x66B8AD37)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x66B8AD35)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f401xc.h)(0x66B8AD35)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x66B8AD37)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\cmsis_version.h)(0x00000000)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\cmsis_compiler.h)(0x00000000)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\cmsis_armclang.h)(0x00000000)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\mpu_armv7.h)(0x00000000)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x66B8AD35)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66B8AD37)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_adc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_adc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_adc_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x66B8AD37)
+I (..\Core\Inc\..\..\Core\Inc\tim.h)(0x66CE0580)
+I (..\Core\Inc\..\..\Core\Inc\..\..\Drivers\Bsp\moto_control\moto_control.h)(0x66E1E3BD)
+I (..\Core\Inc\..\..\Core\Inc\..\..\Drivers\Bsp\moto_control\..\encoder\encoder.h)(0x66D49512)
+I (..\Core\Inc\..\..\Core\Inc\..\..\Drivers\Bsp\key\key.h)(0x66B74D29)
+I (..\Core\Inc\..\..\Core\Inc\..\..\Drivers\Bsp\power\power.h)(0x66D302C1)
+I (..\Core\Inc\main.h)(0x66D3010F)
+I (..\Core\Inc\..\..\Core\Inc\..\..\Drivers\Bsp\oled\oled.h)(0x66DEF8DE)
+I (..\Core\Inc\usart.h)(0x66CDEF02)
+I (..\Core\Inc\..\..\Core\Inc\..\..\Drivers\Bsp\find_line\fine_line.h)(0x66BCAAF3)
+I (..\Core\Inc\..\..\Core\Inc\..\..\Drivers\Bsp\usart_openmv_stm32\usart_openmv_stm32.h)(0x66B74E56)
+I (..\Core\Inc\..\..\Core\Inc\..\..\Drivers\Bsp\led\led.h)(0x66CDF7C7)
+I (..\Core\Inc\..\..\Core\Inc\usart.hr.\Drivers\Bsp\encoder\encoder.h)(0x00000000)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\string.h)(0x6569B012)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x6569B012)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6569B012)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\math.h)(0x6569B012)
+F (..\Drivers\Bsp\usart_openmv_stm32\usart_openmv_stm32.c)(0x66DDB9ED)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/Bsp/encoder-I./RTE/_Tricycle-IE:/TOOL/keil_5_39/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IE:/TOOL/keil_5_39/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-IE:/TOOL/keil_5_39/Packs/Keil/STM32F4xx_DFP/2.17.1/Device/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F401xC -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F401xC-o tricycle/usart_openmv_stm32.o -MD)
+I (..\Drivers\Bsp\usart_openmv_stm32\usart_openmv_stm32.h)(0x66B74E56)
+I (..\Core\Inc\..\..\Core\Inc\main.h)(0x66D3010F)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x66B8AD37)
+I (..\Core\Inc\stm32f4xx_hal_conf.h)(0x66CF38AD)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x66B8AD37)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x66B8AD35)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f401xc.h)(0x66B8AD35)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x66B8AD37)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\cmsis_version.h)(0x00000000)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\cmsis_compiler.h)(0x00000000)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\cmsis_armclang.h)(0x00000000)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\mpu_armv7.h)(0x00000000)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x66B8AD35)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66B8AD37)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_adc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_adc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_adc_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x66B8AD37)
+I (..\Core\Inc\..\..\Core\Inc\tim.h)(0x66CE0580)
+I (..\Core\Inc\..\..\Core\Inc\..\..\Drivers\Bsp\moto_control\moto_control.h)(0x66E1E3BD)
+I (..\Core\Inc\..\..\Core\Inc\..\..\Drivers\Bsp\moto_control\..\encoder\encoder.h)(0x66D49512)
+I (..\Core\Inc\..\..\Core\Inc\..\..\Drivers\Bsp\key\key.h)(0x66B74D29)
+I (..\Core\Inc\..\..\Core\Inc\..\..\Drivers\Bsp\power\power.h)(0x66D302C1)
+I (..\Core\Inc\main.h)(0x66D3010F)
+I (..\Core\Inc\..\..\Core\Inc\..\..\Drivers\Bsp\oled\oled.h)(0x66DEF8DE)
+I (..\Core\Inc\usart.h)(0x66CDEF02)
+I (..\Core\Inc\..\..\Core\Inc\..\..\Drivers\Bsp\find_line\fine_line.h)(0x66BCAAF3)
+I (..\Core\Inc\..\..\Core\Inc\..\..\Drivers\Bsp\usart_openmv_stm32\usart_openmv_stm32.h)(0x66B74E56)
+I (..\Core\Inc\..\..\Core\Inc\..\..\Drivers\Bsp\led\led.h)(0x66CDF7C7)
+I (..\Core\Inc\..\..\Core\Inc\usart.hr.\Drivers\Bsp\encoder\encoder.h)(0x00000000)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\string.h)(0x6569B012)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x6569B012)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6569B012)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\math.h)(0x6569B012)
+F (..\Drivers\Bsp\power\power.c)(0x66B75245)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/Bsp/encoder-I./RTE/_Tricycle-IE:/TOOL/keil_5_39/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IE:/TOOL/keil_5_39/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-IE:/TOOL/keil_5_39/Packs/Keil/STM32F4xx_DFP/2.17.1/Device/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F401xC -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F401xC-o tricycle/power.o -MD)
+I (..\Drivers\Bsp\power\power.h)(0x66D302C1)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x66B8AD37)
+I (..\Core\Inc\stm32f4xx_hal_conf.h)(0x66CF38AD)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x66B8AD37)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x66B8AD35)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f401xc.h)(0x66B8AD35)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x66B8AD37)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\cmsis_version.h)(0x00000000)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\cmsis_compiler.h)(0x00000000)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\cmsis_armclang.h)(0x00000000)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\mpu_armv7.h)(0x00000000)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x66B8AD35)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66B8AD37)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_adc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_adc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_adc_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x66B8AD37)
+I (..\Core\Inc\tim.h)(0x66CE0580)
+I (..\Core\Inc\..\..\Drivers\Bsp\moto_control\moto_control.h)(0x66E1E3BD)
+I (..\Core\Inc\..\..\Drivers\Bsp\moto_control\..\encoder\encoder.h)(0x66D49512)
+I (..\Core\Inc\..\..\Core\Inc\main.h)(0x66D3010F)
+I (..\Core\Inc\..\..\Drivers\Bsp\key\key.h)(0x66B74D29)
+I (..\Core\Inc\..\..\Drivers\Bsp\power\power.h)(0x66D302C1)
+I (..\Core\Inc\..\..\Drivers\Bsp\oled\oled.h..\Core\Inc\usart.h)(0x00000000)
+I (..\Core\Inc\..\..\Drivers\Bsp\find_line\fine_line.h)(0x66BCAAF3)
+I (..\Core\Inc\..\..\Drivers\Bsp\usart_openmv_stm32\usart_openmv_stm32.h)(0x66B74E56)
+I (..\Core\Inc\..\..\Drivers\Bsp\led\led.h)(0x66CDF7C7)
+I (..\Drivers\Bsp\encoder\encoder.h)(0x66D49512)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\string.h)(0x6569B012)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x6569B012)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6569B012)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\math.h)(0x6569B012)
+I (..\Core\Inc\..\..\Core\Inc\adc.h)(0x66A53D96)
+F (..\Drivers\Bsp\oled\oled.c)(0x66EEE154)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/Bsp/encoder-I./RTE/_Tricycle-IE:/TOOL/keil_5_39/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IE:/TOOL/keil_5_39/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-IE:/TOOL/keil_5_39/Packs/Keil/STM32F4xx_DFP/2.17.1/Device/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F401xC -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F401xC-o tricycle/oled.o -MD)
+I (..\Core\Inc\main.hd.\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x00000000)
+I (..\Core\Inc\stm32f4xx_hal_conf.h)(0x66CF38AD)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x66B8AD37)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x66B8AD35)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f401xc.h)(0x66B8AD35)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x66B8AD37)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\cmsis_version.h)(0x00000000)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\cmsis_compiler.h)(0x00000000)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\cmsis_armclang.h)(0x00000000)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\mpu_armv7.h)(0x00000000)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x66B8AD35)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66B8AD37)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_adc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_adc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_adc_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x66B8AD37)
+I (..\Core\Inc\tim.h)(0x66CE0580)
+I (..\Core\Inc\..\..\Drivers\Bsp\moto_control\moto_control.h)(0x66E1E3BD)
+I (..\Core\Inc\..\..\Drivers\Bsp\moto_control\..\encoder\encoder.h)(0x66D49512)
+I (..\Core\Inc\..\..\Core\Inc\main.h)(0x66D3010F)
+I (..\Core\Inc\..\..\Drivers\Bsp\key\key.h)(0x66B74D29)
+I (..\Core\Inc\..\..\Drivers\Bsp\power\power.h)(0x66D302C1)
+I (..\Core\Inc\..\..\Drivers\Bsp\oled\oled.h)(0x66DEF8DE)
+I (..\Core\Inc\..\..\Drivers\Bsp\find_line\fine_line.h)(0x66BCAAF3)
+I (..\Core\Inc\..\..\Drivers\Bsp\usart_openmv_stm32\usart_openmv_stm32.h)(0x66B74E56)
+I (..\Core\Inc\..\..\Drivers\Bsp\led\led.hn.\Core\Inc\usart.h)(0x00000000)
+I (..\Drivers\Bsp\encoder\encoder.h)(0x66D49512)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\string.h)(0x6569B012)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x6569B012)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6569B012)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\math.h)(0x6569B012)
+I (..\Drivers\Bsp\oled\oledfont.h)(0x66B8A4DE)
+F (..\Drivers\Bsp\find_line\fine_line.c)(0x66EE8E4A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/Bsp/encoder-I./RTE/_Tricycle-IE:/TOOL/keil_5_39/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IE:/TOOL/keil_5_39/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-IE:/TOOL/keil_5_39/Packs/Keil/STM32F4xx_DFP/2.17.1/Device/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F401xC -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F401xC-o tricycle/fine_line.o -MD)
+I (..\Drivers\Bsp\find_line\fine_line.h)(0x66BCAAF3)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x66B8AD37)
+I (..\Core\Inc\stm32f4xx_hal_conf.h)(0x66CF38AD)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x66B8AD37)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x66B8AD35)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f401xc.h)(0x66B8AD35)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x66B8AD37)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\cmsis_version.h)(0x00000000)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\cmsis_compiler.h)(0x00000000)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\cmsis_armclang.h)(0x00000000)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\mpu_armv7.h)(0x00000000)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x66B8AD35)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66B8AD37)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_adc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_adc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_adc_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x66B8AD37)
+I (..\Core\Inc\tim.h)(0x66CE0580)
+I (..\Core\Inc\..\..\Drivers\Bsp\moto_control\moto_control.h)(0x66E1E3BD)
+I (..\Core\Inc\..\..\Drivers\Bsp\moto_control\..\encoder\encoder.h)(0x66D49512)
+I (..\Core\Inc\..\..\Core\Inc\main.h)(0x66D3010F)
+I (..\Core\Inc\..\..\Drivers\Bsp\key\key.h)(0x66B74D29)
+I (..\Core\Inc\..\..\Drivers\Bsp\power\power.h)(0x66D302C1)
+I (..\Core\Inc\..\..\Drivers\Bsp\oled\oled.h..\Core\Inc\usart.h)(0x00000000)
+I (..\Core\Inc\..\..\Drivers\Bsp\find_line\fine_line.h)(0x66BCAAF3)
+I (..\Core\Inc\..\..\Drivers\Bsp\usart_openmv_stm32\usart_openmv_stm32.h)(0x66B74E56)
+I (..\Core\Inc\..\..\Drivers\Bsp\led\led.h)(0x66CDF7C7)
+I (..\Drivers\Bsp\encoder\encoder.h)(0x66D49512)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\string.h)(0x6569B012)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x6569B012)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6569B012)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\math.h)(0x6569B012)
+F (..\Drivers\Bsp\led\led.c)(0x66D203F9)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/Bsp/encoder-I./RTE/_Tricycle-IE:/TOOL/keil_5_39/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IE:/TOOL/keil_5_39/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-IE:/TOOL/keil_5_39/Packs/Keil/STM32F4xx_DFP/2.17.1/Device/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F401xC -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F401xC-o tricycle/led.o -MD)
+I (..\Core\Inc\main.h\.\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x00000000)
+I (..\Core\Inc\stm32f4xx_hal_conf.h)(0x66CF38AD)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x66B8AD37)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x66B8AD35)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f401xc.h)(0x66B8AD35)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x66B8AD37)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\cmsis_version.h)(0x00000000)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\cmsis_compiler.h)(0x00000000)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\cmsis_armclang.h)(0x00000000)
+I (C:\Users\acer\Desktop\project01(OK)\project01(格式OK)\project01\Drivers\CMSIS\Include\mpu_armv7.h)(0x00000000)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x66B8AD35)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66B8AD37)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_adc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_adc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_adc_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x66B8AD37)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x66B8AD37)
+I (..\Core\Inc\tim.h)(0x66CE0580)
+I (..\Core\Inc\..\..\Drivers\Bsp\moto_control\moto_control.h)(0x66E1E3BD)
+I (..\Core\Inc\..\..\Drivers\Bsp\moto_control\..\encoder\encoder.h)(0x66D49512)
+I (..\Core\Inc\..\..\Core\Inc\main.h)(0x66D3010F)
+I (..\Core\Inc\..\..\Drivers\Bsp\key\key.h)(0x66B74D29)
+I (..\Core\Inc\..\..\Drivers\Bsp\power\power.h)(0x66D302C1)
+I (..\Core\Inc\..\..\Drivers\Bsp\oled\oled.h..\Core\Inc\usart.h)(0x00000000)
+I (..\Core\Inc\..\..\Drivers\Bsp\find_line\fine_line.h)(0x66BCAAF3)
+I (..\Core\Inc\..\..\Drivers\Bsp\usart_openmv_stm32\usart_openmv_stm32.h)(0x66B74E56)
+I (..\Core\Inc\..\..\Drivers\Bsp\led\led.h)(0x66CDF7C7)
+I (..\Drivers\Bsp\encoder\encoder.h)(0x66D49512)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\string.h)(0x6569B012)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x6569B012)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6569B012)
+I (E:\TOOL\keil_5_39\Keil_v5\ARM\ARMCLANG\include\math.h)(0x6569B012)

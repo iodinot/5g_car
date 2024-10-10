@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "encoder.h": "c",
+        "stdint.h": "c",
+        "oled.h": "c",
+        "moto_control.h": "c",
+        "string.h": "c",
+        "main.h": "c",
+        "stm32f4xx_hal.h": "c",
+        "usart.h": "c"
+    }
+}
