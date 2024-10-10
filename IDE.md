@@ -34,8 +34,11 @@ sudo snap install --classic code
 ```
 
 ### 3.3 安装 PlatformIO
-在 VSCode 的侧边栏中，进入 Extensions（扩展）界面，搜索并安装 PlatformIO。
-
+ - 在 VSCode 的侧边栏中，进入 Extensions（扩展）界面，搜索并安装 PlatformIO。
+  
+### 3.4 配置 ARM 交叉编译器
+PlatformIO 默认提供了 STM32 的支持，但确保 ARM 交叉编译器可用：
+ 
 ### 3.4 安装 CubeMX
 1. 下载 CubeMX 安装包。
 2. 给予执行权限并运行：
@@ -53,7 +56,7 @@ sudo snap install --classic code
 - 初始化 Git 仓库并添加远程：
 ```bash
 git init
-git remote add origin [远程仓库地址]
+git remote add origin https://github.com/iodinot/5g_car.git
 ```
 - 提交代码并推送：
 ```bash
@@ -62,10 +65,11 @@ git commit -m "Initial commit"
 git push -u origin master
 ```
 
+- 项目仓库：https://github.com/iodinot/5g_car.git
+
 ## 5. 结论
 本指南成功搭建了 STM32F401 的开发环境，后续可以开始项目开发。确保在开发过程中遵循良好的编程实践，并定期将代码推送到远程仓库。
 
 ## 6. 参考文献
 - STMicroelectronics 官方文档
 - PlatformIO 官方文档
-- Git 学习资源：推荐使用 [Pro Git](https://git-scm.com/book/zh/v2) 作为学习参考。
