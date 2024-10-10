@@ -15,6 +15,16 @@
 
 # 现有资源
 
+## 开发环境
+
+1. **IDE**: VSCode + PlatformIO + CubeMX
+[搭建过程](docs/IDE.md)
+
+2. **EDA**: [嘉立创EDA](https://pro.lceda.cn/)
+
+
+
+
 ## 硬件
 
 ### 机械
